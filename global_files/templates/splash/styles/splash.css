@@ -1,0 +1,205 @@
+.on-mobile-hide{
+display:none;
+}
+.mobile-bg-img{
+	display: none;
+}
+
+#splash .coach_tip  .inner-contanier {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+	bottom: 0;
+	padding: 1rem 35% 1rem 1rem;
+    display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+#splash .coachTipContainer{
+	flex: 100 1;
+	max-height: 100%;
+	overflow: auto;
+}
+
+#splash .coachTip ul.coachtip_text{
+	list-style:none;
+	margin: 0px;
+	padding: 0;
+}
+#splash .coachTip ul.coachtip_text li:nth-child(odd){
+	background:#1480c5;
+}
+.coachTip ul.coachtip_text li:nth-child(even){
+	
+	background:#0061a0;
+}
+#splash .coachTip ul.coachtip_text li{
+	width:100%;
+	padding:8px;
+	background:#0061a0;
+	color:#fff;
+	min-height:50px;
+	margin-bottom: 0px;
+}
+#splash .coachTip .coachTipContainer span.heading{
+	display:block;
+	width:100%;
+	padding:8px;
+	background:#084871;
+	color:#fff;
+	min-height:50px;
+	margin-bottom: 5px;
+}
+#splash .coachTip .coachImage{
+	display:none;
+}
+
+
+#splash .splash{
+	margin: 0px auto;
+    height: 650px;
+    width: 1000px; 
+    position: relative;
+}
+
+#splash .splash-container{   
+    /* background: url('../images/splash1.jpg') no-repeat 100% 100%; */
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;   
+ }
+ #splash .start-container{
+    /* background: url('../images/splash.jpg') no-repeat 100% 100%; */
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    height: 650px;
+    background-position: center;
+ }
+
+ #splash .start-container .right_panel{
+    width: 50%;
+    height: 100%;
+    float: left;
+    display: block; 
+	padding: 75px 45px 0px 45px;
+    padding-top: 70px;
+    opacity: 1;
+    /* color: #fff;     */
+    overflow: hidden;
+ }
+ #splash .screen_containt p{
+    color: #515151;
+    font-size: 18px;
+    font-weight: 100;
+    margin-bottom: 20px; 
+ }
+ #splash .start-container .right_panel .header-container{
+    margin-bottom: 20px;
+    border-width: 2px;
+    width: 90%;
+ }
+ #splash .start-container .right_panel .header-container h2{
+    font-size: 32px;
+    font-weight: bold;
+    color: #4c4b50;
+    margin-bottom: 20px;
+ }
+ #splash .start-container .screen_inner_containt .teraf-body-container{
+    color: #515151;
+    font-size: 18px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    line-height: normal;
+ }
+
+ #splash #contentWrapper .spash-footer-container{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 180px;
+    background-color: #03274b;
+    display: flex;
+    align-items: center;    
+}
+#splash .spash-footer-container .left-container{
+   float: left;
+   width: 40%;
+}
+#splash .left-container .logo-container{
+    margin-left: 10%;
+}
+#splash .spash-footer-container .right-container{
+    width: 60%;    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+ }
+ #splash .right-container .heading-container{
+     width: 60%;          
+     text-align: right;
+     position: relative;
+     height: 120px;
+ }
+ #splash .heading-container:before{
+    content: "";
+    position: absolute;
+    right: -35px;
+    width: 2px;
+    background-color: #02496f;
+    height: 115px;
+ }
+ #splash .heading-container h3{
+     font-size: 30px;
+     font-weight: 100;
+     text-transform: capitalize;
+     color: #fff;
+ }
+ #splash .right-container .button-container{
+    width: 40%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+#splash .button-container button{
+	font-size: 1.1em;
+    cursor: pointer;
+    border: none;
+    background-color: #FFF;
+    border: none;
+    color: #0473e9;
+    padding: 4px 21px;
+    cursor: pointer;
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 21px;
+    border-radius: 30px;
+    border: 1px solid #0473e9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 116px;
+    min-height: 45px;
+}
+@media all and (-ms-high-contrast:none)
+{
+.button-container button {  height: 45px;} /* IE10 */     
+}
+.button-container button:active, button:focus{
+  outline: 0;
+}
+#splash .button-container button:hover{
+	 background-color: #0473e9;	 
+	 color:#FFF;
+	
+}
+#splash .startButton_icon{
+    font-size: 24px;    
+    font-weight: 500;
+}
+ 

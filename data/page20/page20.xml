@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LandingPage>
+    <PageContent>
+        <backgroundImage><![CDATA[global_files/templates/static_screen_06/images/Bg.png]]></backgroundImage>
+        <heading><![CDATA[Recap: Credit Fraud (Static Screen Type 6)]]></heading>
+        <subheading><![CDATA[Let's summarise the learnings from this section]]></subheading>
+        <para xPOS='' yPOS='' width='' height=''><![CDATA[Financial statement fraud <span class="paraspan">enables new financing,continuation of financing and improved terms</span> that woul not be granted if the true situation was known.]]></para>
+        <para xPOS='' yPOS='' width='' height=''><![CDATA[<span>Review </span>the financial statements submitted as part of the credit application and understand if there have been any red flags raised. Refer to the Fraud Risk Analytics section of the Workbench to assist with the identification of potential indicators.]]></para>
+        <para xPOS='' yPOS='' width='' height=''><![CDATA[<span>Spot any outliers</span> within the financials; use peer analysis to identify thgs that can't be justified. Use site visits to validate your understanding and speak to people on the ground.]]></para>
+        <para xPOS='' yPOS='' width='' height=''><![CDATA[<span>Managing the risk of facility and collateral fraud</span> involves checks on the existence, value or title of collateral and signing authority for facility and collateral documentation.]]></para>
+        <para xPOS='' yPOS='' width='' height=''><![CDATA[<span>Ensure</span> information and documentation provided by the client is consistent with site visits, market knowledge and other publicly available information.]]></para>
+        <para xPOS='' yPOS='' width='' height=''><![CDATA[<span>Know the end use</span> of client credit facilities and how funds are bieng used to spot the misappropriation of loan funds.]]></para>
+        <para xPOS='' yPOS='' width='' height=''><![CDATA[If you have a concern, <span>Report it: </span>this gives us the best opportunity to protect the bank from fraud losses.]]></para>
+    </PageContent>
+</LandingPage>

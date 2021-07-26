@@ -1,0 +1,225 @@
+#page3 .on-mobile-hide {
+  display: none;
+}
+#page3 .mobile-bg-img {
+  display: none;
+}
+
+#page3 .static_screen2 .inner-contanier {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 1rem 35% 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+#page3 .coachTipContainer {
+  flex: 100 1;
+  max-height: 100%;
+  overflow: auto;
+}
+
+#page3 .coachTip ul.coachtip_text {
+  list-style: none;
+  margin: 0px;
+  padding: 0;
+}
+#page3 .coachTip ul.coachtip_text li:nth-child(odd) {
+  background: #1480c5;
+}
+#page3 .coachTip ul.coachtip_text li:nth-child(even) {
+  background: #0061a0;
+}
+#page3 .coachTip ul.coachtip_text li {
+  width: 100%;
+  padding: 8px;
+  background: #0061a0;
+  color: #fff;
+  min-height: 50px;
+  margin-bottom: 0px;
+}
+#page3 .coachTip .coachTipContainer span.heading {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  background: #084871;
+  color: #fff;
+  min-height: 50px;
+  margin-bottom: 5px;
+}
+#page3 .coachTip .coachImage {
+  display: none;
+}
+
+#page3 /* .coach_scroll {
+    max-height: calc(100% - 60px);
+    overflow: auto;
+} */
+/*
+#page3 @media screen and (max-width:550px){
+	#page3 .desktop-bg-img{
+		display: none;
+	}
+	#page3 .mobile-bg-img{
+		display: block;
+		width: 100%;
+	}
+	#page3 .coachTip .coachImage{
+		display: block;
+	}
+	#page3 .coachTip .coachImage img{
+		width: 100px;
+	}
+	#page3 .static_screen2 .inner-contanier{
+		padding: 0.5rem 1rem;
+	}
+	#page3 .coachTipContainer{
+		max-height:calc(100% - 100px)
+	}
+	#page3 /* .coach_scroll {
+		max-height: calc(100% - 160px - 1.5rem);
+	} 
+}
+*/
+#page3 .splash {
+  margin: 0px auto;
+  height: 650px;
+  width: 1000px;
+  position: relative;
+}
+
+#page3 .splash-container {
+  background: url("../images/splash1.jpg") no-repeat 100% 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+#page3 .staticScreen4-container {
+  background: url("../images/StaticPageBG.jpg") no-repeat 100% 100%;
+  background-size: cover;
+  height: 100%;
+  min-height: 600px;
+  background-position: center;
+}
+
+#page3 .staticScreen4-container .right_panel {
+  width: 93%;
+  height: 100%;
+  float: left;
+  display: block;
+  margin: 83px 0 0 42px;
+}
+#page3 .staticScreenT4 h2 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #4c4b50;
+  margin-bottom: 0.7rem;
+}
+#page3 .staticScreenT4 .seperator {
+  display: inline-block;
+  width: 52px;
+  height: 6px;
+  background: #4c4b50;
+  margin: 15px 0;
+}
+#page3 .staticScreenT4-container {
+  width: 921px;
+  height: 380px;
+  background: url(../images/StaticPage4Graphic.png) no-repeat;
+}
+#page3 .staticScreenT4-container .imageTitlePart {
+  width: 55%;
+  float: left;
+  padding-top: 84px;
+  padding-left: 6px;
+}
+#page3 .imageTitlePart .imgTitle {
+  width: 33.33%;
+  text-align: center;
+  float: left;
+  color: #4c4b50;
+  padding: 17px;
+  line-height: 20px;
+}
+#page3 .imageTitlePart .imgTitle h4 {
+  font-size: 18px;
+  font-weight: bold;
+}
+#page3 .staticScreenT4-container .imageMapPart {
+  width: 45%;
+  float: left;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  min-height: 375px;
+}
+#page3 .staticScreenT4-container .imageMapPart .mapTitleDesc h4 {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: #4c4b50;
+}
+#page3 .staticScreenT4-container .imageMapPart .mapTitle {
+  width: 30.33%;
+  text-align: left;
+  float: left;
+  color: #4c4b50;
+  padding: 5px 15px 0 5px;
+  line-height: 20px;
+}
+
+#page3 .staticScreenT4 p {
+  color: #515151;
+  font-size: 17px;
+  font-weight: 100;
+  margin-bottom: 20px;
+  line-height: 20px;
+}
+
+#page3 #contentWrapper .spash-footer-container {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 180px;
+  background-color: #03274b;
+  display: flex;
+  align-items: center;
+}
+#page3 .spash-footer-container .left-container {
+  float: left;
+  width: 40%;
+}
+#page3 .left-container .logo-container {
+  margin-left: 10%;
+}
+#page3 .spash-footer-container .right-container {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+#page3 .right-container .heading-container {
+  width: 60%;
+  text-align: right;
+  position: relative;
+  height: 120px;
+}
+#page3 .heading-container:before {
+  content: "";
+  position: absolute;
+  right: -35px;
+  width: 2px;
+  background-color: #02496f;
+  height: 115px;
+}
+#page3 .heading-container h3 {
+  font-size: 30px;
+  font-weight: 100;
+  text-transform: capitalize;
+  color: #fff;
+}

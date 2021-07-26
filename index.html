@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Cache-Control" content="public" />
+	<meta http-equiv="expires" content="never" />
+	<link rel="icon" href="data:;base64,iVBORwOKGO=" />
+	<title>SCB</title>
+	<link href="global_files/styles/googleapi.css" rel="stylesheet">
+	<link href="global_files/styles/ionicons.min.css" rel="stylesheet">
+	<link href="global_files/styles/all.css" rel="stylesheet">
+	<link rel="stylesheet" href="global_files/plugins/build/mediaelementplayer.css">
+	<link rel="stylesheet" href="global_files/plugins/owlc/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="global_files/plugins/owlc/css/owl.theme.default.min.css">
+	<link href="global_files/plugins/bootstrap/css/bootstrap.css" type="text/css" rel="stylesheet" />
+	<link href="global_files/styles/global.css" type="text/css" rel="stylesheet" />
+	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="cookies"
+		src="global_files/scripts/global.js"></script>
+	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="cookies"
+		src="global_files/scripts/lms/cookies.js"></script>
+	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="modulevars"
+		src="global_files/scripts/lms/modulevars.js"></script>
+	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="scodata"
+		src="global_files/scripts/lms/scodata.js"></script>
+	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="apiwrapper"
+		src="global_files/scripts/lms/apiwrapper.js"></script>
+	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="scoapiwrapper"
+		src="global_files/scripts/lms/scoapiwrapper.js"></script>
+	<script type="text/javascript" src="global_files/plugins/jsPdf/jsPdf.js"></script>
+	<script type="text/javascript" src="global_files/plugins/animationJs/tweenmax.js"></script>
+	<script type="text/javascript" src="global_files/plugins/html2canvas/html2canvas.js"></script>
+	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="cookies"
+		src="global_files/scripts/customIntrection.js"></script>
+</head>
+
+<body id="mainBody" class="noselect" onresize="scaleToFit()">
+	<div class="activity_container noselect" id="activity_container">
+		<!-- Activites will apper here on mobile device -->
+	</div>
+
+	<div class="fixed_block">
+		<div id="shellContainer" class="shellContainer clearfix">
+			<div id="coursePreloader"></div>
+			<!---Shell Header--->
+
+			<!--Shell Header-->
+			<header id="shellHeader" class="shellHeader clearfix">
+				<div class="Logoheader">
+					<div class="top-header">
+						<div class="logo">
+							<img src="assests/images/left_logo.png">
+							<img id="main_rightImage" src="assests/images/right_logo.png">
+						</div>
+					</div>
+					<!-- <div class="bottom-logo">
+								<span class=" bg-lightgreen strip_container"></span>
+								<span class="bg-darkgreen strip_container"></span>
+								<span class="bg-darkblue strip_container"></span>
+								<span class="bg-skyblue strip_container"></span>
+							</div> -->
+				</div>
+			</header>
+			<!-- End Shell Header -->
+
+			<!-- Shell Main content -->
+			<div class="main_container clearfix">
+				<!-- <div class="video_heading">
+							<h3 class="last_viewed"></h3>
+							<h2 class="topic_title"></h2>
+						</div> -->
+				<div class="video_block">
+					<!-- <div class="videoBlocker"></div>
+							<a href="#" class="text-white info_icon" id="info_icon">
+								<i class="icon ion-ios-information-outline noselect"></i>
+							</a>
+							<div class="info_box" id="infoBox">
+								<ul class="tabs nav text-white">
+									<li id="tab_1"><a data-toggle="tab" href="#contentTab_1">Resources</a></li>
+									<li id="tab_2"><a data-toggle="tab" href="#contentTab_2">Transcript</a></li>
+								</ul>
+								<div class="tab-content text-white">
+									<div class="tab-pane" id="contentTab_1"></div>
+									<div class="tab-pane" id="contentTab_2"></div>
+								</div>
+							</div> -->
+					<section id="slider" class="carousel slide">
+						<div class="carousel-inner" role="listbox"></div>
+					</section>
+					<!-- <div id="navBtnHolder" class="navBtnHolder">
+								<div id="btnBack" class="btnBack icon ion-ios-arrow-back"></div>
+								<div id="btnNext" class="btnNext icon ion-ios-arrow-forward"></div>
+							</div> -->
+				</div>
+				<div class="nextItext" style="display: none;"><span>Click Next to proceed.</span></div>
+			</div>
+
+
+			<!--Shell Footer-->
+			<footer id="shellFooter">
+				<div id="navBtnHolder" class="navBtnHolder">
+					<div class="footer-menu-container">
+						<p tabindex="0">CCIB Fraud Risk Awareness and Prevention</p>
+					</div>
+
+					<div class="btn-container">
+						<a href="#" type="button" class="btnHelp footer-btn popupBtn menuBtn" data-toggle="modal"
+							data-target="#exampleModal" data-type="menu">Menu</a>
+						<a href="#" type="button" class="btnExit footer-btn help disabled">Help</a>
+						<a href="#" type="button" class="btnExit footer-btn popupBtn" data-type="glossary">Glossary</a>
+						<a href="#" type="button" class="btnExit footer-btn popupBtn" data-type="resource">Resource</a>
+						<a href="#" type="button" class="btnExit footer-btn exit-btn" data-type="exitpopup" role="button" aria-label="Exit">Exit</a>
+					</div>
+
+					<div class="navigation-container">
+						<a href="#" type="button" class="btnBack footer-btn"><img src="assests/images/back.png">
+							<span>back </span>
+						</a>
+						<p><span id="currentPageTopic"></span>/<span id="totalTopic"></span></p>
+						<a href="#" type="button" class="btnNext footer-btn">
+							<span>Next</span>
+							<img src="assests/images/next.png">
+						</a>
+					</div>
+				</div>
+			</footer>
+
+
+			<!--Glossary Popup Start-->
+			<div id="glossary">
+				<div class="glossary-popup">
+					<div class="glossary-content">
+						<div class="glossary-header ">
+							<button aria-label="" tabindex="0" type="button" class="glossary-close"
+								data-type="glossary">
+								<span aria-hidden="true">&times;</span>
+							</button>
+							<h5 aria-label="" tabindex="0" class="glossary-title" id="">Glossary</h5>
+
+						</div>
+						<div class="modal-body">
+							<div class="modal-body-text">
+								<table aria-label="" tabindex="0" class="table">
+									<thead aria-label="" tabindex="0">
+										<tr>
+											<th aria-label="" tabindex="0">Term</th>
+											<th aria-label="" tabindex="0">Description</th>
+										</tr>
+									</thead>
+									<tbody>
+									</tbody>
+								</table>
+
+
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+
+
+			<!-- accessibility popup start  -->
+
+			<!-- <div id="accessibilitypopup">
+				<div class="accessibility-popup-container">
+					<div class="accessibility-content">
+						<div class="accessibility-header">
+							<h5 class="accessibility-title" id=""></h5>
+						</div>
+						<div class="accessibility-body">
+							<div class="accessibility-body-text">
+								<div class="img-text">
+									<div class="image_icon_container">
+										<img src='' class="bodyIcon">
+										<div class="para_container">
+											<p></p>
+										</div>
+									</div>
+									<div class="image_icon_container">
+										<img src='' class="bodyIcon">
+										<div class="para_container">
+											<p></p>
+										</div>
+									</div>
+
+									<div class="accessibility-btn-container">
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+			</div> -->
+
+
+			<div id="accessibilitypopup">
+				<div class="accessibility-popup-container">
+					<div class="Logoheader">
+						<div class="top-header">
+							<div class="logo">
+								<img src="assests/images/left_logo.png">
+								<img id="main_rightImage" src="assests/images/right_logo.png">
+							</div>
+						</div>
+					</div>
+					<div class="accessibility-content">
+						<div class="accessibility-header ">							
+							<h5  class="accessibility-title" id=""></h5>
+						</div>
+						<div class="accessibility-body">
+							<div class="accessibility-body-text">
+								<div class="img-text">
+									<div class="image_icon_container">							
+										<div class="para_container">
+											<p tabindex="0" aria-label=""></p>
+										</div>
+									</div>
+									<div class="image_icon_container">							
+										<div class="para_container">
+											<p tabindex="0" aria-label=""></p>
+										</div>
+									</div>
+
+									<div class="accessibility-btn-container">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+						<div id="navBtnHolder" class="navBtnHolder">
+							<div class="footer-menu-container">
+								<p tabindex="0" role="text">CCIB Fraud Risk Awareness and Prevention</p>
+							</div>
+						</div>
+				</div>
+			</div>
+
+
+
+			<!-- accessibility popup end  -->
+
+			<!--Resource Popup Start-->
+			<div id="resource">
+				<div class="resource-popup">
+					<div class="resource-content">
+						<div class="resource-header ">
+							<button type="button" class="resource-close" data-type="resource">
+								<span aria-hidden="true">&times;</span>
+							</button>
+							<h5 aria-label="" tabindex="0" class="resource-title" id="">Resources</h5>
+
+						</div>
+						<div class="modal-body">
+							<div class="modal-body-text">
+								<table class="table">
+									<tbody>
+									</tbody>
+								</table>
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+
+
+			<!---Menu Popup Start--->
+			<div id="menu" style="">
+				<div class="menu-popup">
+					<div class="menu-content">
+						<div class="menu-header ">
+							<h5 aria-label="" tabindex="0" class="menu-title" id=""> Menu</h5>
+							<button aria-label="" tabindex="0" type="button" class="menu-close" data-type="menu">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="menu-modal-body">
+							<div class="menu-modal-body-text">
+
+								<ul class="list-group">
+									<!-- 									
+									<li class="list-group-item d-flex  align-items-center">
+											<span class="badge badge-primary badge-pill"></span>
+											Morbi leo risus <a  href="#" class="expand-menu"><img src="assests/images/nextlevel.png"/></a>
+									</li>
+									<li>										
+										<ul class="">
+										  <li class="list-group-item d-flex  align-items-center">
+										   <span class="badge badge-primary badge-pill"></span>
+											Menu tex 01	 Menu tex 01 Menu tex 01 Menu tex 01		Menu tex 01		Menu tex 01											
+										  </li>
+										  <li class="list-group-item d-flex  align-items-center">
+											<span class="badge badge-primary badge-pill"></span>
+											Dapibus ac facilisis in											
+										  </li>
+										  <li class="list-group-item d-flex  align-items-center">
+											<span class="badge badge-primary badge-pill"></span>
+											Morbi leo risus
+											
+										  </li>
+										</ul>										
+									</li>-->
+								</ul>
+							</div>
+						</div>
+						<div class="menu-bottom-tab">
+							<div class="menu-footer-wrap">
+								<div aria-label="" tabindex="0" class="footer-item"><span><img
+											src="assests/images/notstarted-icon.png"></span> Not Started</div>
+								<div aria-label="" tabindex="0" class="footer-item"><span><img
+											src="assests/images/incompleted-icon.png"></span> Incomplete</div>
+								<div aria-label="" tabindex="0" class="footer-item"><span><img
+											src="assests/images/completed-icon.png"></span> Complete</div>
+								<div> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<!---Menu Popup End--->
+
+
+
+			<div id="exitpopup">
+				<div aria-label="" class="exit-popup-container">
+					<div class="exit-content">
+						<div class="exit-header ">
+							<!-- <img src='assests/images/closePopup.png' data-btn="exitpopup" class="exit-close-btn"> -->
+							<h5 aria-label="" tabindex="0" class="exit-title" id="">Exit</h5>
+						</div>
+						<div class="exit-body">
+							<div class="exit-body-text">
+								<div class="img-text">
+									<img alt="Close Popup Icon" tabindex="0" src='' class="bodyIcon">
+									<div style="padding-left:10px">
+										<p aria-label="" tabindex="0"></p>
+									</div>
+
+									<div class="exit-btn-container">
+										<a aria-label="Ok" role="button" tabindex="0" href="#" type="button" class="exit-popup-btn"
+											data-btn="yes"></a>
+										<a aria-label="Cancel" role="button" tabindex="0" href="#" type="button" class="exit-popup-btn"
+											data-btn="exitpopup"></a>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+
+
+
+			<!-- Orientation pop up start  -->
+			<div id="orientationpopup">
+				<div class="orientation-popup-container">
+					<div class="orientation-content">
+						<div class="orientation-header ">
+							<!-- <img src='assests/images/closePopup.png' data-btn="orientationpopup" class="orientation-close-btn"> -->
+							<h5 class="orientation-title" id=""></h5>
+						</div>
+						<div class="orientation-body">
+							<div class="orientation-body-text">
+								<div class="img-text">
+									<img src='' class="bodyIcon">
+									<div>
+										<p></p>
+									</div>
+
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<!-- Orientation pop up end  -->
+
+
+
+
+			<!---------------bookmark popup--------------------------------------->
+
+			<div id="bookmarkpoup">
+				<div class="bookmarkpoup-popup-container">
+					<div class="bookmarkpoup-content">
+						<div class="bookmarkpoup-header ">
+							<!-- <img src='assests/images/closePopup.png' data-btn="exitpopup" class="exit-close-btn"> -->
+							<h5 class="bookmarkpoup-title" id="">Bookmark</h5>
+						</div>
+						<div class="bookmarkpoup-body">
+							<div class="bookmarkpoup-body-text">
+								<div class="img-text">
+									<img src='' class="bodyIcon">
+									<div style="">
+										<p></p>
+									</div>
+
+									<div class="bookmarkpoup-btn-container">
+										<a href="#" type="button" class="bookmarkpoup-popup-btn" data-btn="yes">ok</a>
+										<a href="#" type="button" class="bookmarkpoup-popup-btn"
+											data-btn="bookmark">Cancel</a>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<!--Connection and sesstion tim out popup-->
+			<div id="connection">
+				<div class="connection-popup-container">
+					<div class="connection-content">
+						<div class="connection-header ">
+							<!-- <img src='assests/images/closePopup.png' data-btn="connectionpopup" class="connection-close-btn"> -->
+							<h5 class="connection-title" id="">connection</h5>
+						</div>
+						<div class="connection-body">
+							<div class="connection-body-text">
+								<div id="connctionData">
+									<div class="img-text">
+										<img src='' class="bodyIcon">
+
+									</div>
+									<div class="body-data">
+										<div class="retriv-data">
+
+										</div>
+										<div class="body-content">
+
+										</div>
+
+									</div>
+								</div>
+
+								<div class="connection-btn-container">
+									<a href="#" type="button" class="connection-popup-btn connecton-close-btn"
+										data-type="connection">ok</a>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<!-- session time out popup-->
+
+			<div id="session">
+				<div class="session-popup-container">
+					<div class="session-content">
+						<div class="session-header ">
+							<!-- <img src='assests/images/closePopup.png' data-btn="connectionpopup" class="connection-close-btn"> -->
+							<h5 class="session-title" id="">connection</h5>
+						</div>
+						<div class="session-body">
+							<div class="session-body-text">
+								<div id="sessionData">
+									<div class="img-text">
+										<img src='' class="bodyIcon">
+
+									</div>
+									<div class="body-data">
+
+										<div class="body-content">
+
+										</div>
+
+									</div>
+								</div>
+
+								<div class="session-btn-container">
+									<a href="#" type="button" class="session-popup-btn session-close-btn"
+										data-type="session">ok</a>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!---Footer-->
+
+	<!-- Modal -->
+
+
+	<script type="text/javascript" src="global_files/plugins/require/require.js"
+		data-main="global_files/scripts/config"></script>
+
+	<script>
+		/*Browser close alret popup show*/
+		window.onbeforeunload = popup;
+		function popup() {
+
+			if (window.shell.isExitPopupbtnClick) {
+
+			} else {
+				return 'I see you are leaving the site';
+			}
+		}
+	</script>
+</body>
+</html>

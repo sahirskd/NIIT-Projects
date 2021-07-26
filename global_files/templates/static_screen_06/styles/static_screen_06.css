@@ -1,0 +1,142 @@
+#page19 #recap-page .on-mobile-hide{
+    display:none;
+}
+#page19 #recap-page .mobile-bg-img{
+    display: none;
+}
+    
+#page19 #recap-page .coach_tip  .inner-contanier {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 1rem 35% 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+    
+#page19 #recap-page .coachTipContainer{
+    flex: 100 1;
+    max-height: 100%;
+    overflow: auto;
+}
+    
+#page19 #recap-page .coachTip ul.coachtip_text{
+    list-style:none;
+    margin: 0px;
+    padding: 0;
+}
+#page19 #recap-page .coachTip ul.coachtip_text li:nth-child(odd){
+    background:#1480c5;
+}
+#page19 #recap-page .coachTip ul.coachtip_text li:nth-child(even){        
+    background:#0061a0;
+}
+#page19 #recap-page .coachTip ul.coachtip_text li{
+    width:100%;
+    padding:8px;
+    background:#0061a0;
+    color:#fff;
+    min-height:50px;
+    margin-bottom: 0px;
+}
+#page19 #recap-page .coachTip .coachTipContainer span.heading{
+    display:block;
+    width:100%;
+    padding:8px;
+    background:#084871;
+    color:#fff;
+    min-height:50px;
+    margin-bottom: 5px;
+}
+#page19 #recap-page .coachTip .coachImage{
+    display:none;
+}
+
+#page19 #recap-page .splash{
+    margin: 0px auto;
+    height: 650px;
+    width: 1000px; 
+    position: relative;
+}
+#page19 #recap-page .splash-container{   
+    background: url('../images/splash1.jpg') no-repeat 100% 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;   
+}
+#page19 #recap-page .start-container-recap{
+    /* background: url('../images/background.jpg') no-repeat 100% 100%; */
+	width:100%;
+	min-height: 600px;
+	background-position: center;
+	color:#515151;
+}
+#page19 #recap-page .header-container{
+    position: relative;
+    padding: 50px;
+    padding-top: 75px;
+    padding-bottom: 40px;
+}
+#page19 #recap-page .header-container>h2{    
+    font-size: 22px;
+    font-weight: bold;
+}
+#page19 #recap-page .header-container>p{
+   
+    font-size: 18px;
+    
+}
+#page19 #recap-page .footer-container{
+    position: relative;
+}
+#page19 #para_0{
+    background-image: url(../images/1.png);
+    background-repeat: no-repeat;
+    padding-left: 50px;
+}
+#page19 #para_1{
+    background-image: url(../images/2.png);
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    padding-bottom: 16px;
+    overflow: hidden;
+}
+#page19 #para_2{
+    background-image: url(../images/3.png);
+    background-repeat: no-repeat;
+    padding-left: 50px;
+}
+#page19 #para_3{
+    background-image: url(../images/4.png);
+    background-repeat: no-repeat;
+    margin-left: 20px;
+    padding-left: 50px;
+}
+#page19 #para_4{
+    background-image: url(../images/5.png);
+    background-repeat: no-repeat;
+    margin-left: 20px;
+    padding-left: 50px;
+}
+#page19 #para_5{
+    background-image: url(../images/6.png);
+    background-repeat: no-repeat;
+    margin-left: 20px;
+    padding-left: 50px;
+}
+#page19 #para_6{
+    background-image: url(../images/7.png);
+    background-repeat: no-repeat;
+    margin-left: 20px;
+    padding-left: 50px;
+}
+#page19 .bar{
+    position: absolute;
+    width: 2px;
+    background-image: url(../images/line.png);
+    height: 330px;
+    left: 50%;
+}

@@ -1,0 +1,100 @@
+#page18 #static-screen-1 .on-mobile-hide{
+    display:none;
+}
+#page18 #static-screen-1 .mobile-bg-img{
+    display: none;
+}
+    
+#page18 #static-screen-1 .coach_tip  .inner-contanier {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 1rem 35% 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+    
+#page18 #static-screen-1 .coachTipContainer{
+    flex: 100 1;
+    max-height: 100%;
+    overflow: auto;
+}
+    
+#page18 #static-screen-1 .coachTip ul.coachtip_text{
+    list-style:none;
+    margin: 0px;
+    padding: 0;
+}
+#page18 #static-screen-1 .coachTip ul.coachtip_text li:nth-child(odd){
+    background:#1480c5;
+}
+#page18 #static-screen-1 .coachTip ul.coachtip_text li:nth-child(even){        
+    background:#0061a0;
+}
+#page18 #static-screen-1 .coachTip ul.coachtip_text li{
+    width:100%;
+    padding:8px;
+    background:#0061a0;
+    color:#fff;
+    min-height:50px;
+    margin-bottom: 0px;
+}
+#page18 #static-screen-1 .coachTip .coachTipContainer span.heading{
+    display:block;
+    width:100%;
+    padding:8px;
+    background:#084871;
+    color:#fff;
+    min-height:50px;
+    margin-bottom: 5px;
+}
+#page18 #static-screen-1 .coachTip .coachImage{
+    display:none;
+}
+
+#page18 #static-screen-1 .splash{
+    margin: 0px auto;
+    height: 650px;
+    width: 1000px; 
+    position: relative;
+}
+#page18 #static-screen-1 .splash-container{   
+    background: url('../images/splash1.jpg') no-repeat 100% 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;   
+ }
+
+#page18 #static-screen-1 .start-container-static_screen-type1{
+    /* background: url('../images/Bg.png') no-repeat 100% 100%; */
+    background-size: cover;
+    height: 100%;
+    min-height: 600px;
+	color:#515151;
+}
+#page18 #static-screen-1 .header-container{
+    padding: 50px;
+    padding-top: 75px;
+    padding-bottom: 40px;
+}
+#page18 #static-screen-1 .header-container>h2{
+    font-size: 22px;    
+    font-weight: bold;
+}
+#page18 #static-screen-1 .header-container>p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+}
+#page18 #static-screen-1 .footer-container{
+    position: relative;
+}
+#page18 #static-screen-1 .image{
+    position: absolute;
+    background-size: cover;
+    width: 340px;
+    height: 343px;
+}

@@ -1,0 +1,194 @@
+#page1 .on-mobile-hide {
+  display: none;
+}
+#page1 .mobile-bg-img {
+  display: none;
+}
+
+#page1 .static_screen2 .inner-contanier {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 1rem 35% 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+#page1 .coachTipContainer {
+  flex: 100 1;
+  max-height: 100%;
+  overflow: auto;
+}
+
+#page1 .coachTip ul.coachtip_text {
+  list-style: none;
+  margin: 0px;
+  padding: 0;
+}
+#page1 .coachTip ul.coachtip_text li:nth-child(odd) {
+  background: #1480c5;
+}
+#page1 .coachTip ul.coachtip_text li:nth-child(even) {
+  background: #0061a0;
+}
+#page1 .coachTip ul.coachtip_text li {
+  width: 100%;
+  padding: 8px;
+  background: #0061a0;
+  color: #fff;
+  min-height: 50px;
+  margin-bottom: 0px;
+}
+#page1 .coachTip .coachTipContainer span.heading {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  background: #084871;
+  color: #fff;
+  min-height: 50px;
+  margin-bottom: 5px;
+}
+#page1 .coachTip .coachImage {
+  display: none;
+}
+
+#page1 .splash {
+  margin: 0px auto;
+  height: 650px;
+  width: 1000px;
+  position: relative;
+}
+
+#page1 .splash-container {
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+#page1 .staticScreen2-container {
+  /* background: url('../images/StaticPage2BG.jpg') no-repeat 100% 100%; */
+  background-size: cover;
+  height: 100%;
+  min-height: 600px;
+  background-position: center;
+}
+
+#page1 .staticScreen2-container .right_panel {
+  width: 45%;
+  height: 100%;
+  float: left;
+  display: block;
+  margin: 120px 0 0 54px;
+}
+#page1 .staticScreenT2 h2 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #4c4b50;
+  margin: 0;
+}
+#page1 .staticScreenT2 .seperator {
+  display: inline-block;
+  width: 52px;
+  height: 6px;
+  background: #4c4b50;
+  margin: 15px 0;
+}
+#page1 .staticScreen2Container {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  box-shadow: 0 0 6px #b7b7b7;
+  border-radius: 10px;
+}
+#page1 .staticScreen2Container .staticScreenT2-container p {
+  color: #515151;
+  font-size: 17px;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+#page1 .staticScreen2Container .staticScreenT2-container ul {
+  list-style: none;
+  padding: 0;
+}
+#page1 .staticScreen2Container .staticScreenT2-container ul li {
+  color: #515151;
+  font-size: 17px;
+  font-weight: 100;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 20px;
+  line-height: 22px;
+}
+#page1 .staticScreen2Container .staticScreenT2-container ul li:after {
+  content: "";
+  width: 23px;
+  height: 23px;
+  position: absolute;
+  top: 2px;
+  left: 0;
+  background: url("../images/StaticPage2Tick.png") no-repeat;
+}
+#page1 .teraf-container .right_panel .header-container {
+  margin-bottom: 20px;
+  border-width: 2px;
+  width: 90%;
+}
+#page1 .teraf-container .right_panel .header-container h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #4c4b50;
+  margin-bottom: 20px;
+}
+#page1 .teraf-container .right_panel .teraf-body-container p {
+  color: #515151;
+  font-size: 18px;
+  font-weight: 100;
+  margin-bottom: 20px;
+  line-height: normal;
+}
+
+#page1 #contentWrapper .spash-footer-container {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 180px;
+  background-color: #03274b;
+  display: flex;
+  align-items: center;
+}
+#page1 .spash-footer-container .left-container {
+  float: left;
+  width: 40%;
+}
+#page1 .left-container .logo-container {
+  margin-left: 10%;
+}
+#page1 .spash-footer-container .right-container {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+#page1 .right-container .heading-container {
+  width: 60%;
+  text-align: right;
+  position: relative;
+  height: 120px;
+}
+#page1 .heading-container:before {
+  content: "";
+  position: absolute;
+  right: -35px;
+  width: 2px;
+  background-color: #02496f;
+  height: 115px;
+}
+#page1 .heading-container h3 {
+  font-size: 30px;
+  font-weight: 100;
+  text-transform: capitalize;
+  color: #fff;
+}

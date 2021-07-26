@@ -1,0 +1,205 @@
+.on-mobile-hide{
+display:none;
+}
+.mobile-bg-img{
+	display: none;
+}
+
+#startPage .coach_tip  .inner-contanier {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+	bottom: 0;
+	padding: 1rem 35% 1rem 1rem;
+    display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+#startPage .coachTipContainer{
+	flex: 100 1;
+	max-height: 100%;
+	overflow: auto;
+}
+
+#startPage .coachTip ul.coachtip_text{
+	list-style:none;
+	margin: 0px;
+	padding: 0;
+}
+#startPage .coachTip ul.coachtip_text li:nth-child(odd){
+	background:#1480c5;
+}
+.coachTip ul.coachtip_text li:nth-child(even){
+	
+	background:#0061a0;
+}
+#startPage .coachTip ul.coachtip_text li{
+	width:100%;
+	padding:8px;
+	background:#0061a0;
+	color:#fff;
+	min-height:50px;
+	margin-bottom: 0px;
+}
+#startPage .coachTip .coachTipContainer span.heading{
+	display:block;
+	width:100%;
+	padding:8px;
+	background:#084871;
+	color:#fff;
+	min-height:50px;
+	margin-bottom: 5px;
+}
+#startPage .coachTip .coachImage{
+	display:none;
+}
+
+
+#startPage .splash{
+	margin: 0px auto;
+    height: 650px;
+    width: 1000px; 
+    position: relative;
+}
+
+#startPage .splash-container{   
+    /* background: url('../images/splash1.jpg') no-repeat 100% 100%; */
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;   
+ }
+ #startPage .start-container{
+    /* background: url('../images/splash.jpg') no-repeat 100% 100%; */
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    min-height: 600px;
+    background-position: center;
+ }
+
+ #startPage .start-container .right_panel{
+    width: 50%;
+    height: 100%;
+    float: left;
+    display: block; 
+	padding: 75px 45px 0px 45px;
+    padding-top: 70px;
+    opacity: 1;
+    /* color: #fff;     */
+    overflow: hidden;
+ }
+ #startPage .screen_containt p{
+    color: #515151;
+    font-size: 18px;
+    font-weight: 100;
+    margin-bottom: 20px; 
+ }
+ #startPage .start-container .right_panel .header-container{
+    margin-bottom: 20px;
+    border-width: 2px;
+    width: 90%;
+ }
+ #startPage .start-container .right_panel .header-container h2{
+    font-size: 32px;
+    font-weight: bold;
+    color: #4c4b50;
+    margin-bottom: 20px;
+ }
+ #startPage .start-container .screen_inner_containt .teraf-body-container{
+    color: #515151;
+    font-size: 18px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    line-height: normal;
+ }
+
+ #startPage #contentWrapper .spash-footer-container{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 180px;
+    background-color: #03274b;
+    display: flex;
+    align-items: center;    
+}
+#startPage .spash-footer-container .left-container{
+   float: left;
+   width: 40%;
+}
+#startPage .left-container .logo-container{
+    margin-left: 10%;
+}
+#startPage .spash-footer-container .right-container{
+    width: 60%;    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+ }
+ #startPage .right-container .heading-container{
+     width: 60%;          
+     text-align: right;
+     position: relative;
+     height: 120px;
+ }
+ #startPage .heading-container:before{
+    content: "";
+    position: absolute;
+    right: -35px;
+    width: 2px;
+    background-color: #02496f;
+    height: 115px;
+ }
+ #startPage .heading-container h3{
+     font-size: 30px;
+     font-weight: 100;
+     text-transform: capitalize;
+     color: #fff;
+ }
+ #startPage .right-container .button-container{
+    width: 40%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+#startPage .button-container button{
+	font-size: 1.1em;
+    cursor: pointer;
+    border: none;
+    background-color: #FFF;
+    border: none;
+    color: #0473e9;
+    padding: 4px 21px;
+    cursor: pointer;
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 21px;
+    border-radius: 30px;
+    border: 1px solid #0473e9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 116px;
+    min-height: 45px;
+}
+@media all and (-ms-high-contrast:none)
+{
+.button-container button {  height: 45px;} /* IE10 */     
+}
+.button-container button:active, button:focus{
+  
+}
+#startPage .button-container button:hover{
+	 background-color: #0473e9;	 
+	 color:#FFF;
+	
+}
+#startPage .startButton_icon{
+    font-size: 24px;    
+    font-weight: 500;
+}
+ 

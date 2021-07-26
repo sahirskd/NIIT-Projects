@@ -1,0 +1,217 @@
+#page2 .on-mobile-hide {
+  display: none;
+}
+#page2 .mobile-bg-img {
+  display: none;
+}
+
+#page2 .static_screen2 .inner-contanier {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 1rem 35% 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+#page2 .coachTipContainer {
+  flex: 100 1;
+  max-height: 100%;
+  overflow: auto;
+}
+
+#page2 .coachTip ul.coachtip_text {
+  list-style: none;
+  margin: 0px;
+  padding: 0;
+}
+#page2 .coachTip ul.coachtip_text li:nth-child(odd) {
+  background: #1480c5;
+}
+#page2 .coachTip ul.coachtip_text li:nth-child(even) {
+  background: #0061a0;
+}
+#page2 .coachTip ul.coachtip_text li {
+  width: 100%;
+  padding: 8px;
+  background: #0061a0;
+  color: #fff;
+  min-height: 50px;
+  margin-bottom: 0px;
+}
+#page2 .coachTip .coachTipContainer span.heading {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  background: #084871;
+  color: #fff;
+  min-height: 50px;
+  margin-bottom: 5px;
+}
+#page2 .coachTip .coachImage {
+  display: none;
+}
+
+#page2 /* .coach_scroll {
+    max-height: calc(100% - 60px);
+    overflow: auto;
+} */
+/*
+#page2 @media screen and (max-width:550px){
+	#page2 .desktop-bg-img{
+		display: none;
+	}
+	#page2 .mobile-bg-img{
+		display: block;
+		width: 100%;
+	}
+	#page2 .coachTip .coachImage{
+		display: block;
+	}
+	#page2 .coachTip .coachImage img{
+		width: 100px;
+	}
+	#page2 .static_screen2 .inner-contanier{
+		padding: 0.5rem 1rem;
+	}
+	#page2 .coachTipContainer{
+		max-height:calc(100% - 100px)
+	}
+	#page2 /* .coach_scroll {
+		max-height: calc(100% - 160px - 1.5rem);
+	} 
+}
+*/
+#page2 .splash {
+  margin: 0px auto;
+  height: 650px;
+  width: 1000px;
+  position: relative;
+}
+
+#page2 .splash-container {
+  background: url("../images/splash1.jpg") no-repeat 100% 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+#page2 .staticScreen3-container {
+  background: url("../images/StaticPageBG.jpg") no-repeat 100% 100%;
+  background-size: cover;
+  height: 100%;
+  min-height: 600px;
+  background-position: center;
+}
+
+#page2 .staticScreen3-container .right_panel {
+  width: 93%;
+  height: 100%;
+  float: left;
+  display: block;
+  margin: 83px 0 0 42px;
+}
+#page2 .staticScreenT3 h2 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #4c4b50;
+  margin-bottom: 0.7rem;
+}
+#page2 .staticScreenT3 .seperator {
+  display: inline-block;
+  width: 52px;
+  height: 6px;
+  background: #4c4b50;
+  margin: 15px 0;
+}
+#page2 .staticScreen3Container {
+  /*width: 100%;
+    background: rgba(255,255,255,0.7);
+    padding: 20px;
+    box-shadow: 0 0 6px #b7b7b7;
+    border-radius: 10px;*/
+}
+#page2 .staticScreen3Container .staticScreenT3-container p {
+  color: #515151;
+  font-size: 17px;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+#page2 .staticScreen3Container .staticScreenT3-container ul {
+  display: flex;
+  overflow-x: auto;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+}
+#page2 .staticScreen3Container .staticScreenT3-container ul li {
+  color: #515151;
+  font-size: 17px;
+  font-weight: bold;
+  position: relative;
+  margin-right: 10px;
+  float: left;
+}
+#page2 .staticScreen3Container .staticScreenT3-container ul li span {
+  position: absolute;
+  bottom: 17px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
+#page2 .staticScreenT3 p {
+  color: #515151;
+  font-size: 17px;
+  font-weight: 100;
+  margin-bottom: 20px;
+  line-height: 20px;
+}
+
+#page2 #contentWrapper .spash-footer-container {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 180px;
+  background-color: #03274b;
+  display: flex;
+  align-items: center;
+}
+#page2 .spash-footer-container .left-container {
+  float: left;
+  width: 40%;
+}
+#page2 .left-container .logo-container {
+  margin-left: 10%;
+}
+#page2 .spash-footer-container .right-container {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+#page2 .right-container .heading-container {
+  width: 60%;
+  text-align: right;
+  position: relative;
+  height: 120px;
+}
+#page2 .heading-container:before {
+  content: "";
+  position: absolute;
+  right: -35px;
+  width: 2px;
+  background-color: #02496f;
+  height: 115px;
+}
+#page2 .heading-container h3 {
+  font-size: 30px;
+  font-weight: 100;
+  text-transform: capitalize;
+  color: #fff;
+}
