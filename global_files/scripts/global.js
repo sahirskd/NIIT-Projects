@@ -4,5 +4,5 @@ window.globalConfig={
     isResourceEnabel:true,
     isGlossaryEnable:true,
     isMenuBtnEnable:true,
-    Isaccessiblity:true
+    Isaccessiblity:false
 }
